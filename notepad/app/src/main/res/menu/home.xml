@@ -1,0 +1,19 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.notepad.home.notepad.HomeActivity" >
+    <item
+        android:id="@+id/action_add"
+        android:title="add"
+        android:icon="@drawable/add"
+        android:orderInCategory="2"
+        android:showAsAction="ifRoom"
+        />
+    <item
+        android:id="@+id/action_recycle"
+        android:title="recycle"
+        android:icon="@drawable/recycle"
+        android:orderInCategory="1"
+        android:showAsAction="ifRoom"
+        />
+
+</menu>

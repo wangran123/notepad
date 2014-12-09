@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+
+    <com.notepad.home.notepad.JazzyViewPager
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/jazzy_pager"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        >
+
+    </com.notepad.home.notepad.JazzyViewPager>
+    <com.notepad.home.view.HandWritingView
+        android:layout_width="200dip"
+        android:layout_height="200dip"
+        android:id="@+id/handwrintview"
+        android:background="@drawable/eidtview"
+        android:layout_alignParentBottom="true"
+        android:gravity="center_horizontal"
+        android:layout_centerHorizontal="true"/>
+    <ImageButton
+        android:layout_toStartOf="@id/handwrintview"
+        android:layout_toLeftOf="@id/handwrintview"
+        android:id="@+id/deletebutton"
+
+        android:layout_height="wrap_content"
+        android:layout_width="fill_parent"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/delete"
+        android:contentDescription="delete" />
+        />
+    <ImageButton
+        android:layout_toRightOf="@id/handwrintview"
+        android:layout_toEndOf="@id/handwrintview"
+        android:id="@+id/confirmbutton"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/save"
+        android:contentDescription="save" />
+</RelativeLayout>
